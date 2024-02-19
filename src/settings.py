@@ -50,7 +50,11 @@ DOWNLOAD_ORIGINAL_URL: Optional[Union[str, dict]] = (
 )
 # Optional link for downloading original dataset (e.g. "https://some.com/dataset/download")
 
-CLASS2COLOR: Optional[Dict[str, List[str]]] = None
+CLASS2COLOR: Optional[Dict[str, List[str]]] = {
+    "person": [230, 25, 75],
+    "face": [60, 180, 75],
+    "hand": [255, 225, 25],
+}
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
 # If you have more than the one paper, put the most relatable link as the first element of the list
