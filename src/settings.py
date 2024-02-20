@@ -15,7 +15,7 @@ from dataset_tools.templates import (
 ##################################
 PROJECT_NAME: str = "Human Parts"
 PROJECT_NAME_FULL: str = "Human Parts Dataset"
-HIDE_DATASET = True  # set False when 100% sure about repo quality
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
@@ -23,8 +23,8 @@ HIDE_DATASET = True  # set False when 100% sure about repo quality
 LICENSE: License = License.MIT(
     source_url="https://github.com/xiaojie1017/Human-Parts/blob/master/LICENSE"
 )
-APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Surveillance(is_used=False)]
-CATEGORY: Category = Category.Surveillance()
+APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Entertainment(is_used=True)]
+CATEGORY: Category = Category.Entertainment()
 
 CV_TASKS: List[CVTask] = [CVTask.ObjectDetection(), CVTask.Identification()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.ObjectDetection()]
