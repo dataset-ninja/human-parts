@@ -1,6 +1,6 @@
 Dataset **Human Parts** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://www.dropbox.com/scl/fi/6jzdg34u3a9qrgnd8kuwc/human-parts-DatasetNinja.tar?rlkey=5ytp11m7lr8gkv3nt5ffynia2&dl=1)
+ [Download](https://assets.supervisely.com/remote/eyJsaW5rIjogImZzOi8vYXNzZXRzLzM1MjlfSHVtYW4gUGFydHMvaHVtYW4tcGFydHMtRGF0YXNldE5pbmphLnRhciIsICJzaWciOiAiT0lrbTFpbjVpMm8yWExQS1BteWJDZGNwOVVnTHVvdlJlSW1qRk1EcFhBST0ifQ==)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash
